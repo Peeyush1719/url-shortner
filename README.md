@@ -8,8 +8,7 @@ A modern URL Shortener built using the MERN stack that converts long URLs into s
 
 ## 🚀 Live Demo
 
-- **Frontend (Vercel):** https://url-shortner-tau-three.vercel.app
-- **Backend (Render):** https://url-shortner-2-mx5d.onrender.com
+https://url-shortner-tau-three.vercel.app
 
 ---
 
