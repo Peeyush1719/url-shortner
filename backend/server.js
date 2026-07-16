@@ -14,10 +14,16 @@ dotenv.config();
 
 const app = express();
 
+const cors = require("cors");
+
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: [
+      "http://localhost:5173",
+      "https://url-shortner-tau-three.vercel.app"
+    ],
     methods: ["GET", "POST"],
+    credentials: true,
   })
 );
 app.use(express.json());
